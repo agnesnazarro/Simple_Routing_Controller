@@ -11,9 +11,15 @@
     <div class="container">
         <header class="d-flex justify-content-center py-3">
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="/about_me" class="nav-link">About Me</a></li>
-            <li class="nav-item"><a href="/skills" class="nav-link active" aria-current="page">Skills</a></li>
-            <li class="nav-item"><a href="/hobbies" class="nav-link">Hobbies</a></li>
+            <button style="background-color: transparent; border: none">
+                <li class="nav-item"><a href="/about_me" class="nav-link">About Me</a></li>
+            </button>
+            <button style="background-color: transparent; border: none">
+                <li class="nav-item"><a href="/skills" class="nav-link active" aria-current="page">Skills</a></li>
+            </button>
+            <button style="background-color: transparent; border: none">
+                <li class="nav-item"><a href="/hobbies" class="nav-link">Hobbies</a></li>
+            </button>
           </ul>
         </header>
     </div>
